@@ -24,7 +24,7 @@ body {
     color: #000
 }
 .logo-blue{
-    color: #2196F3
+    color: var(--accent-color)
 }
 /* ===END LOGOTYPE===*/
 /*===HEADER===*/
@@ -68,6 +68,10 @@ body {
 }
 /*===END HEADER===*/
 /*===HERO===*/
+.hero{
+    background: #2F303A;
+    text-align: center;
+}
 .hero-title{
     font-weight: 900;
     font-size: 44px;
@@ -75,8 +79,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    /*color: #ffffff;*/
+    color: #ffffff;
 
 }
 .modal-btn{
@@ -88,12 +91,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: #000;    
+    color: #fff;
+    background-color: var(--accent-color); 
 }
-.modal-btn:hover,
-.modal-btn:focus{
-    background-color:var(--accent-color);
-    color:#ffffff;
+.modal-btn{
+    display: inline-block;
+}
 }
 
 /*===AND HERO===*/
@@ -149,21 +152,25 @@ body {
 }
 /*===AND TEAM===*/
 /*===FOOTTER===*/
+.footer{
+    background-color: #2F303A;
+}
 .logo-foot{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
+
 .adresa{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 .adresa:hover,
 .adresa:focus{
@@ -175,7 +182,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /*color: rgba(255, 255, 255, 0.6);*/
+   color: rgba(255, 255, 255, 0.6);
 }
 .contacts:hover,
 .contacts:focus{

@@ -16,12 +16,21 @@ body {
 
 /* ===LOGOTYPE===*/
 .logo{
+    X: 215px;
+    Y: 24px;
+    W: 145px;
+    H: 31px;
+
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000
+    color: #000;
+    Line height: 100%;
+Align: Left;
+Vertical align: Top;
+Letter spacing: 3%;
 }
 .logo-blue{
     color: var(--accent-color)
@@ -29,10 +38,13 @@ body {
 /* ===END LOGOTYPE===*/
 /*===HEADER===*/
 .menu-link{  
+    Font style: Medium;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    Line height: 100%;
+    Align: Left;
     color: #212121;
 }
 .menu-link:hover,

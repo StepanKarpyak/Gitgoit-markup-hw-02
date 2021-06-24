@@ -2,6 +2,7 @@
     --main-font:"Roboto", sans-serif;
     --secondary-font:"Raleway", sans-serif;
     --accent-color:#2196F3;
+    --text-color:#000;
 }
 
 .list{
@@ -10,27 +11,22 @@
 .link{
     text-decoration: none;
 }
+text{
+    color: #212121;
+}
 body {
     font-family:var(--main-font)
+    
 }
 
 /* ===LOGOTYPE===*/
 .logo{
-    X: 215px;
-    Y: 24px;
-    W: 145px;
-    H: 31px;
-
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000;
-    Line height: 100%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 3%;
 }
 .logo-blue{
     color: var(--accent-color)
@@ -119,7 +115,7 @@ Letter spacing: 3%;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    
 }
 .about-main-text{
     font-weight: 400;
@@ -134,7 +130,7 @@ Letter spacing: 3%;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    
 }
 /*===AND ABOUT===*/
 /*===TEAM===*/
@@ -144,7 +140,7 @@ Letter spacing: 3%;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    
 }
 .team-hiro{
     font-weight: 500;
@@ -152,7 +148,7 @@ Letter spacing: 3%;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    
 }
 .time-proff{
     font-weight: 400;
@@ -178,7 +174,7 @@ Letter spacing: 3%;
 
 .adresa{
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;       
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -194,7 +190,7 @@ Letter spacing: 3%;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-   color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 .contacts:hover,
 .contacts:focus{
@@ -208,6 +204,7 @@ Letter spacing: 3%;
     color: #2196f3;
 }
 .btn-list{
+    font-family:var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -226,10 +223,9 @@ Letter spacing: 3%;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    
 }
 .production-zone{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;

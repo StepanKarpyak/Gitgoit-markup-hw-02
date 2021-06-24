@@ -156,7 +156,7 @@ body {
     background-color: #2F303A;
 }
 .logo-foot{
-    font-style: normal;
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
